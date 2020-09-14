@@ -1,8 +1,12 @@
 // 导入颜色选择器组件
 // import ColorPicker from './color-picker'
 import Button from "./button";
+import ButtonGroup from "./button-group";
 import Breadcrumb from "./breadcrumb";
 import BreadcrumbItem from "./breadcrumb-item";
+import Dropdown from "./dropdown";
+import DropdownItem from "./dropdown-item";
+import DropdownMenu from "./dropdown-menu";
 // import Dialog from './dialog'
 // import Input from './input'
 // import Checkbox from './checkbox'
@@ -13,8 +17,12 @@ import "./fonts/font.scss";
 const components = [
   // ColorPicker,
   Button,
+  ButtonGroup,
   Breadcrumb,
   BreadcrumbItem,
+  Dropdown,
+  DropdownItem,
+  DropdownMenu,
   // Dialog,
   // Input,
   // Checkbox,
@@ -37,8 +45,12 @@ export default {
   install,
   // 以下是具体的组件列表
   Button,
+  ButtonGroup,
   Breadcrumb,
   BreadcrumbItem,
+  Dropdown,
+  DropdownItem,
+  DropdownMenu,
   // Dialog,
   // Input,
   // Checkbox,

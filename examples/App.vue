@@ -4,17 +4,21 @@
     <test-button></test-button>
     <h2>breadcrumb</h2>
     <test-breadcrumb></test-breadcrumb>
+    <h2>dropdown</h2>
+    <test-dropdown></test-dropdown>
   </div>
 </template>
 
 <script>
 import TestButton from './TestButton'
 import TestBreadcrumb from './TestBreadcrumb'
-// console.log(TestButton)
+import TestDropdown from './TestDropdown'
+
 export default {
   components: {
     TestButton,
-    TestBreadcrumb
+    TestBreadcrumb,
+    TestDropdown
   }
 }
 </script>

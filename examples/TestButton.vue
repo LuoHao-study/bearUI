@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h2>按钮</h2>
     <div class="row bu-button">
       <bu-button plain>按钮</bu-button>
       <bu-button type="primary">按钮</bu-button>
@@ -31,6 +32,21 @@
       <bu-button icon="bu-icon-check" circle plain type="info"></bu-button>
       <bu-button icon="bu-icon-check" circle plain type="warning"></bu-button>
       <bu-button icon="bu-icon-check" circle plain type="danger"></bu-button>
+    </div>
+    <h2>按钮组</h2>
+    <div class="row">
+      <bu-button-group>
+        <bu-button type="primary" icon="bu-icon-arrow-left">上一页</bu-button>
+        <bu-button type="primary">
+          下一页
+          <i class="bu-icon-arrow-right bu-icon--right"></i>
+        </bu-button>
+      </bu-button-group>
+      <bu-button-group>
+        <bu-button type="primary" icon="bu-icon-edit"></bu-button>
+        <bu-button type="primary" icon="bu-icon-share"></bu-button>
+        <bu-button type="primary" icon="bu-icon-delete"></bu-button>
+      </bu-button-group>
     </div>
   </div>
 </template>

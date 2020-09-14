@@ -5,7 +5,7 @@
 </template>
 <script>
 export default {
-  name: 'buBreadcrumb',
+  name: 'BuBreadcrumb',
 
   props: {
     separator: {

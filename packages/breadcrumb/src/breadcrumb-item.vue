@@ -9,7 +9,7 @@
 </template>
 <script>
 export default {
-  name: 'buBreadcrumbItem',
+  name: 'BuBreadcrumbItem',
   props: {
     to: {},
     replace: Boolean
