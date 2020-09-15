@@ -87,7 +87,7 @@ export default {
 
   watch: {
     visible (val) {
-      this.broadcast('BUDropdownMenu', 'visible', val)
+      this.broadcast('BuDropdownMenu', 'visible', val)
       this.$emit('visible-change', val)
     },
     focusing (val) {

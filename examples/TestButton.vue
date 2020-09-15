@@ -2,7 +2,7 @@
   <div>
     <h2>按钮</h2>
     <div class="row bu-button">
-      <bu-button plain>按钮</bu-button>
+      <bu-button plain @click="clickbtn">按钮</bu-button>
       <bu-button type="primary">按钮</bu-button>
       <bu-button type="success">按钮</bu-button>
       <bu-button type="info">按钮</bu-button>
@@ -53,7 +53,11 @@
 
 <script>
 export default {
-
+  methods: {
+    clickbtn () {
+      console.log('click')
+    }
+  }
 }
 </script>
 
